@@ -23,6 +23,8 @@ public class FuelDepot {
     // Method to implement for a)
     public int nextTankToFill(int threshold) {
         // Your implementation here
+        
+
     }
 
     // Method to implement for b)

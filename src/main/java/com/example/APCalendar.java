@@ -4,11 +4,18 @@ public class APCalendar {
     // Helper method provided
     private static boolean isLeapYear(int year) {
         return (year % 4 == 0) && (year % 100 != 0 || year % 400 == 0);
-    }    
+    }
 
     // Method to implement (a)
     public static int numberOfLeapYears(int year1, int year2) {
         // Your implementation here
+        int counter = 0;
+        for (int i = year1; i <year2; i++){
+            if (isLeapYear(i)){
+                counter++;
+            }
+            return counter;
+        }
     }
 
     // Helper method provided
@@ -44,6 +51,8 @@ public class APCalendar {
     // Method to implement (b)
     public static int dayOfWeek(int month, int day, int year) {
         // Your implementation here
+        
+
     }
 
 }
